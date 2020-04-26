@@ -1,6 +1,6 @@
 ---
 authors:
-- admin
+- Enrico Borghetto 
 bio: 
 education:
   courses:

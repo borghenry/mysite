@@ -1,48 +1,49 @@
 ---
 authors:
 - admin
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
+bio: 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: PhD in Political Studies
+    institution: University of Milan
+    year: 2007
+  - course: Degree in International and Diplomatic Sciences
+    institution: University of Bologna (Forlì)
+    year: 2003
 email: ""
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Legislative studies
+- Policy agendas
+- Comparative politics
+- Italy and Portugal
+- Data analysis
+- EU studies
 organizations:
-- name: Stanford University
-  url: ""
-role: Professor of Artificial Intelligence
+- name: Universtiy of Florence
+  url: "https://www.unifi.it/"
+role: Assistant Professor  
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'
+  link: 'mailto:enrico.borghetto@unifi.it'
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/Eborghetto
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.pt/citations?user=iLkOp74AAAAJ&hl=en
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/borghenry
 superuser: true
-title: Nelson Bighetti
+title: Enrico Borghetto  
 user_groups:
 - Researchers
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am currently Assistant Professor at the [Department of Political and Social Sciences](https://www.dsps.unifi.it/), [School of Political Science "Cesare Alfieri"](https://www.sc-politiche.unifi.it/index.php), University of Florence.   
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I am one of the founders and main investigators for the [Italian Policy Agendas Project](http://www.comparativeagendas.net/italy) and the [Portuguese Policy Agendas Project](http://www.comparativeagendas.net/portugal).  
+
+Complete CV [html](/cv/eborghettocv.html), [pdf](/cv/eborghettocv.pdf)

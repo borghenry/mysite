@@ -1,12 +1,10 @@
 ---
 authors:
 - admin
-- 吳恩達
 categories:
 - Demo
-- 教程
 date: "2016-04-20T00:00:00Z"
-draft: false
+draft: true
 featured: false
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
@@ -19,7 +17,6 @@ subtitle: 'Create a beautifully simple website in under 10 minutes :rocket:'
 summary: Create a beautifully simple website in under 10 minutes.
 tags:
 - Academic
-- 开源
 title: 'Academic: the website builder for Hugo'
 ---
 

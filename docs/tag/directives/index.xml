@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Directives | Enrico Borghetto</title>
+    <link>/tag/directives/</link>
+      <atom:link href="/tag/directives/index.xml" rel="self" type="application/rss+xml" />
+    <description>Directives</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Enrico Borghetto</copyright><lastBuildDate>Tue, 01 Jan 2013 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/featured.jpg</url>
+      <title>Directives</title>
+      <link>/tag/directives/</link>
+    </image>
+    
+    <item>
+      <title>Keeping the pace with Europe: Non-compliance with the transposition deadline of EU directives in the Italian case</title>
+      <link>/publication/borghetto-keeping-2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/borghetto-keeping-2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The role of subnational authorities in the implementation of EU directives</title>
+      <link>/publication/borghetto-role-2010/</link>
+      <pubDate>Wed, 01 Sep 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/borghetto-role-2010/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

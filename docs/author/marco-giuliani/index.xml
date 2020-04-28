@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marco Giuliani | Enrico Borghetto</title>
+    <link>/author/marco-giuliani/</link>
+      <atom:link href="/author/marco-giuliani/index.xml" rel="self" type="application/rss+xml" />
+    <description>Marco Giuliani</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Enrico Borghetto</copyright><lastBuildDate>Sun, 01 Jan 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/featured.jpg</url>
+      <title>Marco Giuliani</title>
+      <link>/author/marco-giuliani/</link>
+    </image>
+    
+    <item>
+      <title>A Long Way to Tipperary: Time in the Italian Legislative Process 1987–2008</title>
+      <link>/publication/borghetto-long-2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/borghetto-long-2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Italian Law-Making Archive: A new tool for the analysis of the Italian legislative process</title>
+      <link>/publication/borghetto-italian-2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/borghetto-italian-2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leading governments and unwilling legislators. The European Union and the Italian Law making (1987-2006)</title>
+      <link>/publication/borghetto-leading-2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/borghetto-leading-2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quanta Bruxelles c&#39;è a Roma? L&#39;europeizzazione della produzione normativa italiana</title>
+      <link>/publication/borghetto-quanta-2009/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/borghetto-quanta-2009/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

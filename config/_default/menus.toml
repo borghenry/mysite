@@ -39,12 +39,12 @@
 [[main]]
   name = "Projects"
   url = "#projects"
-  weight = 50
+  weight = 58
 
 [[main]]
   name = "Courses"
   url = "courses/"
-  weight = 50
+  weight = 55
 
 [[main]]
   name = "Contact"

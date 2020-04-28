@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Complian | Enrico Borghetto</title>
+    <link>/tag/complian/</link>
+      <atom:link href="/tag/complian/index.xml" rel="self" type="application/rss+xml" />
+    <description>Complian</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Enrico Borghetto</copyright><lastBuildDate>Tue, 01 Jan 2013 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/featured.jpg</url>
+      <title>Complian</title>
+      <link>/tag/complian/</link>
+    </image>
+    
+    <item>
+      <title>Keeping the pace with Europe: Non-compliance with the transposition deadline of EU directives in the Italian case</title>
+      <link>/publication/borghetto-keeping-2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/borghetto-keeping-2013/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

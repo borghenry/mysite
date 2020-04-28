@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marco Lisi | Enrico Borghetto</title>
+    <link>/author/marco-lisi/</link>
+      <atom:link href="/author/marco-lisi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Marco Lisi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Enrico Borghetto</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/featured.jpg</url>
+      <title>Marco Lisi</title>
+      <link>/author/marco-lisi/</link>
+    </image>
+    
+    <item>
+      <title>Legislative Activities before and after the Great Recession: An Analysis of Unemployment and Social Welfare Issues</title>
+      <link>/publication/borghetto-legislative-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/borghetto-legislative-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Populism, Blame Shifting and the Crisis: Discourse Strategies in Portuguese Political Parties</title>
+      <link>/publication/lisi-populism-2018/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/lisi-populism-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Productivity and Reselection in a Party-based Environment: Evidence from the Portuguese Case</title>
+      <link>/publication/borghetto-productivity-2018/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/borghetto-productivity-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Government failure, opposition success? Parties electoral performance in Portugal and Italy at the time of the crisis</title>
+      <link>/publication/borghetto-government-2014/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/borghetto-government-2014/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

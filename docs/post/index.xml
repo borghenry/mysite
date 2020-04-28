@@ -5,12 +5,22 @@
     <link>/post/</link>
       <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Enrico Borghetto</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Enrico Borghetto</copyright><lastBuildDate>Sun, 03 Jun 2018 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/featured.jpg</url>
       <title>Posts</title>
       <link>/post/</link>
     </image>
+    
+    <item>
+      <title>The 2018 Italian Election in the European context</title>
+      <link>/post/the-2018-italian-election-in-the-european-context/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>/post/the-2018-italian-election-in-the-european-context/</guid>
+      <description>&lt;p&gt;Here is my presentation for the recent roundtable on the 2018 Italian elections held at the Faculty of Social and Human Sciences of Lisbon on May 16th 2018. I will try to upload the r code used to make the plots as soon as possible. Stay tuned!&lt;br&gt;
+[Click here to download the pdf]&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

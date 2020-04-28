@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fabio Franchino | Enrico Borghetto</title>
+    <link>/author/fabio-franchino/</link>
+      <atom:link href="/author/fabio-franchino/index.xml" rel="self" type="application/rss+xml" />
+    <description>Fabio Franchino</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Enrico Borghetto</copyright><lastBuildDate>Wed, 01 Sep 2010 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/featured.jpg</url>
+      <title>Fabio Franchino</title>
+      <link>/author/fabio-franchino/</link>
+    </image>
+    
+    <item>
+      <title>The role of subnational authorities in the implementation of EU directives</title>
+      <link>/publication/borghetto-role-2010/</link>
+      <pubDate>Wed, 01 Sep 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/borghetto-role-2010/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Complying with the transposition deadlines of EU directives. Evidence from Italy</title>
+      <link>/publication/borghetto-complying-2006/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/borghetto-complying-2006/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

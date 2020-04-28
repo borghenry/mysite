@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marco Michieli | Enrico Borghetto</title>
+    <link>/author/marco-michieli/</link>
+      <atom:link href="/author/marco-michieli/index.xml" rel="self" type="application/rss+xml" />
+    <description>Marco Michieli</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Enrico Borghetto</copyright><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/featured.jpg</url>
+      <title>Marco Michieli</title>
+      <link>/author/marco-michieli/</link>
+    </image>
+    
+    <item>
+      <title>Government Agenda-Setting in Italian Coalitions. Testing the «Partisan Hypothesis» Using Italian Investiture Speeches 1979- 2014</title>
+      <link>/publication/borghetto-government-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/borghetto-government-2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

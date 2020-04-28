@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>José Santana‐Pereira | Enrico Borghetto</title>
+    <link>/author/jose-santanapereira/</link>
+      <atom:link href="/author/jose-santanapereira/index.xml" rel="self" type="application/rss+xml" />
+    <description>José Santana‐Pereira</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Enrico Borghetto</copyright><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/featured.jpg</url>
+      <title>José Santana‐Pereira</title>
+      <link>/author/jose-santanapereira/</link>
+    </image>
+    
+    <item>
+      <title>Parliamentary Questions as an Instrument for Geographic Representation: The Hard Case of Portugal</title>
+      <link>/publication/borghetto-parliamentary-2020/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/borghetto-parliamentary-2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

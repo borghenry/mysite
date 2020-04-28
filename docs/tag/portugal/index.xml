@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portugal | Enrico Borghetto</title>
+    <link>/tag/portugal/</link>
+      <atom:link href="/tag/portugal/index.xml" rel="self" type="application/rss+xml" />
+    <description>Portugal</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Enrico Borghetto</copyright><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/featured.jpg</url>
+      <title>Portugal</title>
+      <link>/tag/portugal/</link>
+    </image>
+    
+    <item>
+      <title>Parliamentary Questions as an Instrument for Geographic Representation: The Hard Case of Portugal</title>
+      <link>/publication/borghetto-parliamentary-2020/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/borghetto-parliamentary-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Populism, Blame Shifting and the Crisis: Discourse Strategies in Portuguese Political Parties</title>
+      <link>/publication/lisi-populism-2018/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/lisi-populism-2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

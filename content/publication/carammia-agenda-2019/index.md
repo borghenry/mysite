@@ -6,6 +6,6 @@ authors: ["Marcello Carammia", "Enrico Borghetto", "Maria Sousa Galito"]
 publication_types: ["6"]
 abstract: ""
 featured: false
-publication: "*O estado da União Europeia: : Da(s) Crise(s) à Mudança?*"
+publication: "In: Camisão I and Brandão AP (eds) *O Estado Da União Europeia: Da(s) Crise(s) à Mudança?* Petrony, pp. 23–42"
 ---
 

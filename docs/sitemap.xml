@@ -78,7 +78,7 @@
   </url>
   
   <url>
-    <loc>/publication/borghetto-parliamentary-2020/</loc>
+    <loc>/publication/spsr-parliamentary-2020/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -99,7 +99,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2020-04-28T17:40:59+01:00</lastmod>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -108,7 +108,7 @@
   </url>
   
   <url>
-    <loc>/publication/epp-legislative-2020/</loc>
+    <loc>/publication/jepp-legislative-2020/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -133,7 +133,7 @@
   </url>
   
   <url>
-    <loc>/publication/borghetto-party-2020/</loc>
+    <loc>/publication/ps-party-2020/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -219,7 +219,7 @@
   
   <url>
     <loc>/tag/italy/</loc>
-    <lastmod>2020-04-28T17:40:59+01:00</lastmod>
+    <lastmod>2018-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -285,21 +285,6 @@
   <url>
     <loc>/terms/</loc>
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/elections/</loc>
-    <lastmod>2020-04-28T17:40:59+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2020-04-28T17:40:59+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/the-2018-italian-election-in-the-european-context/</loc>
-    <lastmod>2020-04-28T17:40:59+01:00</lastmod>
   </url>
   
   <url>
@@ -588,6 +573,10 @@
   
   <url>
     <loc>/author/enrico-borghetto/</loc>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
   </url>
   
 </urlset>

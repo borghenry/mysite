@@ -6,6 +6,6 @@ authors: ["Enrico Borghetto", "Marco Lisi"]
 publication_types: ["6"]
 abstract: ""
 featured: false
-publication: "*Political Representation and Citizenship in Portugal*"
+publication: "in Lisi M, Freire A, and Tsatsanis E (eds) *Political Representation and Citizenship in Portugal* Lanham, Maryland: Lexington Books, pp. 173–191"
 ---
 

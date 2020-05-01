@@ -1,0 +1,94 @@
+---
+title: "CV"
+author: "Enrico Borghetto"
+fontfamily: mathpazo
+output:
+  word_document: default
+  html_document: default
+  pdf_document:
+    latex_engine: pdflatex
+    template: C:\Users\Enrico Borghetto\Dropbox\blog\R\svm-latex-cv.tex
+fontsize: 11pt
+geometry: margin=1in
+jobtitle: FCT Investigator
+linkcolor: blue
+fontfamilyoptions: sc, osf
+email: enrico.borghetto@fcsh.unl.pt
+updated: no
+urlcolor: blue
+web: enricoborghetto.netlify.com
+---
+
+```{r, echo=FALSE, cache=FALSE}
+df <- Sys.Date()
+```
+Last updated: `r Sys.Date()`
+
+## WORK ADDRESS
+Interdisciplinary Centre of Social Sciences - CICS.NOVA   
+NOVA University of Lisbon  
+Avenida de Berna, n. 26-C, 1069-061 Lisboa
+
+## ACADEMIC APPOINTMENTS
+* **2015-PRESENT**	FCT investigator at CICS.NOVA, FCSH  
+    University NOVA of Lisbon, Portugal  
+    
+* **2013-2015**	Postdoctoral Researcher at CESNOVA, FCSH, with a project entitled "The policy agenda at the time of crisis in Europe's periphery" (Grant funded by the Fundação para a Ciência e a Tecnologia, SFRH/BPD/89968/2012)  
+    University NOVA of Lisbon, Portugal
+    
+* **2008-2012**	Postdoctoral Researcher, Department of Social and Political Studies with a project entitled "The europeanisation of executive-legislative relations: national parliaments and Community legislation"  
+    University of Milan, Milano, Italy
+
+
+## EDUCATION
+* **2003-2007**	Ph.D. in Political Studies  
+    Graduate School in Social, Economic and Political Sciences of the University of Milan  
+    
+* **1998-2003**	University Degree in International and Diplomatic Sciences (110/110 magna cum laude)  
+    University of Bologna (Forli'), Faculty of International and Diplomatic Sciences   
+
+
+## RESEARCH EXPERIENCE
+* **2015-PRESENT** Principal investigator "Portuguese Parliament: Agenda-setting and Law-making" Project financed by the Fundação para a Ciência e a Tecnologia (IF/00382/2014)
+
+* **2015-PRESENT** Researcher in the project "Democracy in times of crisis: Power and Discourse in a three-level game", Project financed by the Fundação para a Ciência e a Tecnologia  (PTDC/IVC-CPO/2247/2014) URL: https://goo.gl/ExHizi
+
+* **2015-PRESENT** Researcher in the project "Crisis, Political Representation and Democratic Renewal: The Portuguese case in the Southern European context", Project financed by the Fundação para a Ciência e a Tecnologia  (PTDC/IVC-CPO/3098/2014) URL: https://goo.gl/HMBMaK
+
+* **2014-PRESENT** Principal investigator in the Portuguese team participating in the European project "Political Leaders in European Cities" (Coordinated by the University of Florence)   
+
+* **2013-2015** Associate researcher for the project "Public preferences and Policy decision-making: a comparative analysis" Project financed by the Fundação para a Ciência e a Tecnologia (PTDC/IVC-CPO/3921/2012)   
+    
+* **2010-2012** Member of the research unit of the University of Milan in the project "Institutional agenda setting: Actors, time, information " co-financed by the Italian Ministry for Research and Higher Education (PRIN 2009, Protocol 2009TPW4NL_002, Principal Investigator: prof. Marco Giuliani).  
+   
+* **2009-PRESENT** Researcher and one of the Principal Investigators for the project "Italian Policy Agendas"
+
+## PUBLICATIONS  
+* with Marco Lisi (Forthcoming, 2018) "Productivity and re-selection in a party-based environment: evidence from the Portuguese case" Parliamentary Affairs  
+
+* (Forthcoming, 2018) "Delegated decree authority in a parliamentary system. The exercise of legislative delegation in Italy (1987-2013)" Journal of legislative Studies  
+
+* (Forthcoming, 2018) "Anti-populism", in F.José Eduardo (Ed) Dicionário dos Antis. A Cultura Portuguesa em Negativo, Imprensa Nacional-Casa da Moeda  
+
+* with Federico Russo (2018) From agenda setters to agenda takers? The determinants of party issue attention in times of crisis. Party Politics 24, 65-77  
+
+* with Ivan Kopric, Eva Marín Hlynsdóttir, Jasmina Dzinic (2018), Institutional Environments and Mayors' Role Perceptions, In H. Heinelt et al. (eds.), Political Leaders and Changing Local Democracy, Palgrave Macmillan pp.149-173  
+
+* with Francesco Visconti and Marco Michieli (2017) "Government Agenda Setting in Italian Coalitions, Testing the partisan hypothesis using Italian investiture speeches 1979-2014" Italian Journal of Public Policies (2): 193-220  
+
+* , (2015), "Challenging Italian Centralism through the Vertical Shift of Competences to the Subnational and Supranational Levels." Contemporary Italian Politics 7 (1): 58-75.  
+
+* , (2014) Legislative processes as sequences: exploring the temporal dimension of law-making by means of sequence analysis, International Review of Administrative Sciences. 80:3, pp.553-76  
+
+* with Lars Mader (2014) EU Law Revisions and Legislative Drift, European Union Politics.15:2, pp.171-191  
+* with Marcello Carammia and Francesco Zucchini (2014). The impact of party priorities on Italian law-making from The First to the Second Republic, In C.Green Pedersen and S.Walgrave (Eds.) Agenda Setting, Policies, and Political Systems, Chicago: Chicago University Press, pp.164-182  
+
+* , (2013) Keeping the pace with Europe: Non-compliance with the transposition deadlines of EU directives in the Italian case, Novi Ligure: Epoke edizioni, ISBN: 978-88-98014-13-2  
+
+* with Luigi Curini, Marco Giuliani, Alessandro Pellegata and Francesco Zucchini (2012) Italian Law-Making Archive (ILMA): A new tool for the analysis of the Italian legislative process, Rivista Italiana di Scienza Politica, 3 pp. 481-502  
+
+* with Marco Giuliani (2012) A Long Way to Tipperary: Time in the Italian Legislative Process 1987-2008, South European Society and Politics , 17:1 pp.23-44  
+
+* with Marco Giuliani and Francesco Zucchini (2011) "Leading governments and unwilling legislators. The European Union and the Italian Law making (1987-2006)", in S. Brouard, O. Costa and T.König (Eds), The Europeanization of Domestic Legislatures, New York:Springer, pp.109-130  
+
+* with Fabio Franchino (2010) "The Role of Subnational Authorities in the Implementation of EU Directives", Journal of European Public Policy, 17:6, pp. 759 - 780  

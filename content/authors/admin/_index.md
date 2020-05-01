@@ -10,13 +10,13 @@ education:
   - course: Degree in International and Diplomatic Sciences
     institution: University of Bologna (Forlì)
     year: 2003
-email: ""
+email: "enrico.borghetto@unifi.it"
 interests:
 - Legislative studies
 - Policy agendas
 - Comparative politics
 - Italy and Portugal
-- Data analysis
+- Data analysis 
 - EU studies
 organizations:
 - name: Universtiy of Florence

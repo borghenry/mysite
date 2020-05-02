@@ -3,5 +3,6 @@
 .RData
 .Ruserdata
 blogdown
-.DS_Store 
+.DS_Store
 docs/
+resources/

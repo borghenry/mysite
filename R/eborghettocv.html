@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 <meta name="author" content="Enrico Borghetto" />
@@ -74,8 +74,6 @@ overflow: auto;
 margin-left: 2%;
 position: fixed;
 border: 1px solid #ccc;
-webkit-border-radius: 6px;
-moz-border-radius: 6px;
 border-radius: 6px;
 }
 
@@ -103,9 +101,14 @@ font-size: 12px;
 .tocify-subheader .tocify-subheader {
 text-indent: 30px;
 }
-
 .tocify-subheader .tocify-subheader .tocify-subheader {
 text-indent: 40px;
+}
+.tocify-subheader .tocify-subheader .tocify-subheader .tocify-subheader {
+text-indent: 50px;
+}
+.tocify-subheader .tocify-subheader .tocify-subheader .tocify-subheader .tocify-subheader {
+text-indent: 60px;
 }
 
 .tocify .tocify-item > a, .tocify .nav-list .nav-header {
@@ -509,13 +512,13 @@ float: none;
 
           item.append($("<a/>", {
 
-            "text": self.text()
+            "html": self.html()
 
           }));
 
         } else {
 
-          item.text(self.text());
+          item.html(self.html());
 
         }
 
@@ -1346,7 +1349,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -1408,6 +1410,7 @@ summary {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -1420,48 +1423,9 @@ summary {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -1475,6 +1439,12 @@ $(document).ready(function ()  {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -1510,8 +1480,6 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -1553,17 +1521,21 @@ div.tocify {
 </div>
 
 
-<p>Last updated: 2019-04-16</p>
+<p><code>{r, echo=FALSE, cache=FALSE} df &lt;- Sys.Date()</code> Last updated: <code>r Sys.Date()</code></p>
 <div id="work-address" class="section level2">
 <h2>WORK ADDRESS</h2>
-<p>Interdisciplinary Centre of Social Sciences - CICS.NOVA<br />
+<p>Instituto Português de Relações Internacionais (IPRI)<br />
+Faculty of Human and Social Science<br />
 NOVA University of Lisbon<br />
-Avenida de Berna, n. 26-C, 1069-061 Lisboa</p>
+Avenida de Berna, n. 26-C, 1069-061 Lisboa</p>
 </div>
 <div id="academic-appointments" class="section level2">
 <h2>ACADEMIC APPOINTMENTS</h2>
 <ul>
-<li><p><strong>03/2015-PRESENT</strong> FCT investigator, public contract at the Faculty of Social and Human Sciences (FCSH) funded by the Fundação para a Ciência e a Tecnologia IF/00382/2014) at CICS.NOVA, FCSH University NOVA of Lisbon, Portugal</p></li>
+<li><p><strong>11/2019-PRESENT</strong> Researcher, contract funded by the Fundação para a Ciência e a Tecnologia at IPRI, Faculty of Social and Human Sciences (FCSH)<br />
+University NOVA of Lisbon, Portugal</p></li>
+<li><p><strong>03/2015-10/2019</strong> FCT investigator, contract funded by the Fundação para a Ciência e a Tecnologia (IF/00382/2014) at CICS.NOVA, Faculty of Social and Human Sciences (FCSH)<br />
+University NOVA of Lisbon, Portugal</p></li>
 <li><p><strong>01/2013-02/2015</strong> Postdoctoral Researcher at CESNOVA, FCSH, with a project entitled “The policy agenda at the time of crisis in Europe’s periphery” (Bolsas de Pós-Doutoramento (BPD) funded by the Fundação para a Ciência e a Tecnologia, SFRH/BPD/89968/2012)<br />
 University NOVA of Lisbon, Portugal</p></li>
 <li><p><strong>11/2008-11/2012</strong> Postdoctoral Researcher, Department of Social and Political Studies with a project entitled “The europeanisation of executive-legislative relations: national parliaments and Community legislation”<br />
@@ -1588,20 +1560,21 @@ Liceo Linguistico sperimentale A.Canova, Treviso</p></li>
 <div id="current-projects" class="section level3">
 <h3>CURRENT PROJECTS</h3>
 <ul>
-<li><p><strong>2015-PRESENT</strong> Principal investigator “Portuguese Parliament: Agenda-setting and Law-making” Exploratory Project financed by the Fundação para a Ciência e a Tecnologia (IF/00382/2014)</p></li>
 <li><p><strong>2015-PRESENT</strong> One of the Principal investigators for the Portuguese Policy Agendas Project. This is a joint research project involving ISCTE and the FCSH <a href="https://www.comparativeagendas.net/portugal" class="uri">https://www.comparativeagendas.net/portugal</a></p></li>
 <li><p><strong>2009-PRESENT</strong> One of the Principal investigators for the Italian Policy Agendas Project. This is a joint research project involving the NOVA University of Lisbon and the University of Lecce and Malta <a href="https://www.comparativeagendas.net/italy" class="uri">https://www.comparativeagendas.net/italy</a></p></li>
-<li><p><strong>2016-PRESENT</strong> Researcher in the project “Democracy in times of crisis: Power and Discourse in a three-level game”, Project financed by the Fundação para a Ciência e a Tecnologia (PTDC/IVC-CPO/2247/2014, coordinated by Catherine Moury, FCSH) URL: <a href="https://goo.gl/ExHizi" class="uri">https://goo.gl/ExHizi</a></p></li>
-<li><p><strong>2016-PRESENT</strong> Researcher in the project “Crisis, Political Representation and Democratic Renewal: The Portuguese case in the Southern European context”, Project financed by the Fundação para a Ciência e a Tecnologia (PTDC/IVC-CPO/3098/2014, coordinated by André Freire, Marco Lisi and Emmanouil Tsatsanis, FCSH and ISCTE-IUL) URL: <a href="https://goo.gl/HMBMaK" class="uri">https://goo.gl/HMBMaK</a></p></li>
+<li><p><strong>2020-PRESENT</strong> Principal investigator for “ConstiRep: Constituency Service and policy representation in European Parliaments”. This research project is funded by the Transnational Cooperation Program Pessoa (2020) and involves the FCSH and Lille University.</p></li>
 </ul>
 </div>
 <div id="past-projects" class="section level3">
 <h3>PAST PROJECTS</h3>
 <ul>
+<li><p><strong>2015-2020</strong> Principal investigator “Portuguese Parliament: Agenda-setting and Law-making” Exploratory Project financed by the Fundação para a Ciência e a Tecnologia (IF/00382/2014)</p></li>
+<li><p><strong>2016-2020</strong> Researcher in the project “Democracy in times of crisis: Power and Discourse in a three-level game”, Project financed by the Fundação para a Ciência e a Tecnologia (PTDC/IVC-CPO/2247/2014, coordinated by Catherine Moury, FCSH) URL: <a href="https://goo.gl/ExHizi" class="uri">https://goo.gl/ExHizi</a></p></li>
+<li><p><strong>2016-2020</strong> Researcher in the project “Crisis, Political Representation and Democratic Renewal: The Portuguese case in the Southern European context”, Project financed by the Fundação para a Ciência e a Tecnologia (PTDC/IVC-CPO/3098/2014, coordinated by André Freire, Marco Lisi and Emmanouil Tsatsanis, FCSH and ISCTE-IUL) URL: <a href="https://goo.gl/HMBMaK" class="uri">https://goo.gl/HMBMaK</a></p></li>
 <li><p><strong>2013-2015</strong> Researcher in the project “Public preferences and Policy decision-making: a comparative analysis” Project financed by the Fundação para a Ciência e a Tecnologia (PTDC/IVC-CPO/3921/2012, coordinated by Ana Belchior, ISCTE-IUL)</p></li>
 <li><p><strong>2014-2018</strong> Principal investigator in the Portuguese team participating in the European project “Political Leaders in European Cities” (Coordinated by the University of Florence) This project deals with the role of Mayors and the transformation of political representation and careers at the local level.</p></li>
 <li><p><strong>2010-2012</strong> Co-manager of the ILMA (Italian-Law Making Database)<br />
-ILMA originated from an idea of a group of scholars affiliated with the Department of Social and Political Studies at the Universit? degli Studi di Milano, and it is one of the scientific products of the Center for the Observation of Legislatures (COoL). It is a relational database that combines information on Italian legislation, roll calls and political elites. It currently covers six Italian legislatures (1987-2008).</p></li>
+ILMA originated from an idea of a group of scholars affiliated with the Department of Social and Political Studies at the Universita’ degli Studi di Milano, and it is one of the scientific products of the Center for the Observation of Legislatures (COoL). It is a relational database that combines information on Italian legislation, roll calls and political elites. It currently covers six Italian legislatures (1987-2008).</p></li>
 <li><p><strong>2010-2012</strong> Member of the research unit of the University of Milan in the project -Institutional agenda setting: Actors, time, information.- co-financed by the Italian Ministry for Research and Higher Education (PRIN 2009, Protocol 2009TPW4NL_002, Principal Investigator: prof. Marco Giuliani).</p></li>
 <li><p><strong>2008-2012</strong> Researcher in the Italian team participating in the European project “Delors’ Myth: The scope and impact of Europeanization on law production”. The project aims are: 1) developing new methods to quantitatively measure the Europeanization of national public policies (i.e. the scope and extent national policies are shaped by EU law and policy); 2) analysing the impact of EU policy-making on the relationship between government and parliament in each of the nine countries under study.</p></li>
 <li><p><strong>2006</strong> Research assistant at the Research Unit on European Governance (URGE)<br />
@@ -1611,13 +1584,15 @@ Key areas of responsibility: review of the literature relevant for URGE projects
 University College London, School of Public Policy, London, UK<br />
 Key areas of responsibility: data collection and maintenance of the database on national transposition of EU directives; review of the literature on EU Compliance; contribution to joint publications.</p></li>
 <li><p><strong>Oct/Dec 2004</strong> Research assistant for the project “Political representation and legislative process in the regions and the autonomous provinces in Italy” (Coordinator Prof. Salvatore Vassallo)<br />
-Istituto Carlo Cattaneo and Universit? di Bologna, Bologna, Italy<br />
+Istituto Carlo Cattaneo and Universita’ di Bologna, Bologna, Italy<br />
 Key areas of responsibility: assistance in drafting the questionnaire; interviews with over 30 members of the Lombardia Regional Council.</p></li>
 </ul>
 </div>
 <div id="visiting-research-periods" class="section level3">
 <h3>VISITING RESEARCH PERIODS</h3>
 <ul>
+<li><p><strong>May 2019</strong> Visiting Researcher, IDC Herzliya<br />
+Tel Aviv, Israel</p></li>
 <li><p><strong>Sept 2017/Jan 2018</strong> Visiting Researcher, Department of Government<br />
 University of Texas, Austin, USA</p></li>
 <li><p><strong>Feb/Mar 2012</strong> Visiting Fellow Mannheim Centre for European Social Research (MZES)<br />
@@ -1634,6 +1609,9 @@ University College London, London, UK</p></li>
 <div id="whole-courses" class="section level3">
 <h3>WHOLE COURSES:</h3>
 <ul>
+<li><p><strong>18/02/2020-NOW</strong> “Analise Politica Comparada”, Undergraduate course, FCSH, Nova University of Lisbon, 6 ECTS (64 hours)</p></li>
+<li><p><strong>10/02/2020-13/02/2020</strong> “Research design”, Lisbon Winter School in Research Skills and Methods, FCSH, NOVA University of Lisbon, 2 ECTS (12 hours)</p></li>
+<li><p><strong>03/10/2019-17/12/2019</strong> Course for PhD students “The Maestri of Political Science”, FCSH, Nova University of Lisbon (20 hours)</p></li>
 <li><p><strong>21/02/2019-30/05/2019</strong> “Parliamentary Studies”, Master Course, FCSH, Nova University of Lisbon, 10 ECTS (44 hours)</p></li>
 <li><p><strong>21/02/2019-30/05/2019</strong> Tutorial for undergraduate students “Portuguese Parliament: Agenda-setting and Law-making”, FCSH, Nova University of Lisbon, 6 ECTS (20 hours)</p></li>
 <li><p><strong>04/02/2019-07/02/2019</strong> “Research design”, Lisbon Winter School in Research Skills and Methods, FCSH, NOVA University of Lisbon, 2 ECTS (12 hours)</p></li>
@@ -1654,6 +1632,7 @@ University College London, London, UK</p></li>
 <div id="one-off-classes" class="section level3">
 <h3>ONE-OFF CLASSES:</h3>
 <ul>
+<li><p><strong>30/10/2019</strong> “Populism”, class for the undergraduate course in Sociology, FCSH, NOVA University of Lisbon</p></li>
 <li><p><strong>30/04/2015</strong> “The European Crisis”, class for the cycle of seminars for Master students in “European politics”, FCSH, NOVA University of Lisbon</p></li>
 <li><p><strong>15/04/2015</strong> “Europeanization of Portugal”, class for the cycle of seminars for Master students in “Ciência Política e Relações Internacionais”, FCSH, NOVA University of Lisbon</p></li>
 <li><p><strong>23/11/2014</strong> “The Portuguese parliament in a comparative perspective”, class for the cycle of seminars for Erasmus students “Portuguese Politics and Society”, FCSH, NOVA University of Lisbon</p></li>
@@ -1664,9 +1643,10 @@ University College London, London, UK</p></li>
 </ul>
 </div>
 </div>
-<div id="grants-awarded" class="section level2">
-<h2>GRANTS AWARDED</h2>
+<div id="grants-and-awards" class="section level2">
+<h2>GRANTS AND AWARDS</h2>
 <ul>
+<li><p>2019 “Carlo Maria Santoro” Award for best paper presented in the 2018 Annual Conference of the Italian Political Science Association</p></li>
 <li><p>2015-20 “Portuguese Parliament: Agenda-setting and Law-making” FCT Investigator Contract and Exploratory Project financed by the Fundação para a Ciência e a Tecnologia (IF/00382/2014)</p></li>
 <li><p>2018 Selected for the International Credit Mobility project, under the Erasmus+ programme for a research period at IDC - Interdisciplinary Center Herzliya (IDC), application CM18AC0249</p></li>
 <li><p>2016 Contrato Erasmum + - Açâo Chave I – Mobilidade Individual para fins de aprendizagem – Contrato 29191/007/2016/STT</p></li>
@@ -1682,7 +1662,9 @@ University College London, London, UK</p></li>
 <div id="articles-in-academic-journals" class="section level3">
 <h3>ARTICLES IN ACADEMIC JOURNALS</h3>
 <ul>
-<li><p>Borghetto E and Belchior A (Forthcoming) Party manifestos, opposition and media as determinants of the cabinet agenda, Political Studies</p></li>
+<li><p>Epp DA and Borghetto E (forthcoming) Legislative Agendas during Periods of Inequality: Evidence from Europe and the United States. Journal of European Public Policy.</p></li>
+<li><p>Borghetto E, Santana‐Pereira J and Freire A (2020) Parliamentary Questions as an Instrument for Geographic Representation: The Hard Case of Portugal. Swiss Political Science Review 26(1): 10-30. DOI: 10.1111/spsr.12387.</p></li>
+<li><p>Borghetto E and Belchior AM (2020) Party Manifestos, Opposition and Media as Determinants of the Cabinet Agenda. Political Studies 68(1): 37–53. DOI: 10.1177/0032321718820738.</p></li>
 <li><p>Borghetto E (2018) Challenger parties in Parliament: the case of the Italian Five Star Movement. Italian Political Science 13(3): 19–32.</p></li>
 <li><p>Lisi M and Borghetto E (2018) Populism, Blame Shifting and the Crisis: Discourse Strategies in Portuguese Political Parties. South European Society and Politics 23(4): 405–427. DOI: 10.1080/13608746.2018.1558606</p></li>
 <li><p>Borghetto E, Carammia M and Russo F (2018) Policy agendas in Italy: introduction to the special issue. Italian Political Science Review / Rivista Italiana di Scienza Politica 48(3): 265–274. DOI: 10.1017/ipo.2018.17</p></li>
@@ -1695,7 +1677,7 @@ University College London, London, UK</p></li>
 <li><p>Borghetto E (2014) Legislative processes as sequences: Exploring temporal trajectories of Italian law-making by means of sequence analysis. International Review of Administrative Sciences 80(3): 553–76.</p></li>
 <li><p>Borghetto E and Mäder L (2014) EU law revisions and legislative drift. European Union Politics 15(2): 171–191. DOI: 10.1177/1465116513513345</p></li>
 <li><p>Borghetto E and Giuliani M (2012) A Long Way to Tipperary: Time in the Italian Legislative Process 1987–2008. South European Society and Politics 17(1): 23–44. DOI: 10.1080/13608746.2012.654619.</p></li>
-<li><p>Borghetto E, Curini L, Giuliani M, et al. (2012) Italian Law-Making Archive: A new tool for the analysis of the Italian legislative process. Rivista Italiana di Scienza Politica 2012(3): 481–502.</p></li>
+<li><p>Borghetto E, Curini L, Giuliani M, et al. (2012) Italian Law-Making Archive: A new tool for the analysis of the Italian legislative process. Rivista Italiana di Scienza Politica 2012(3): 481–502.</p></li>
 <li><p>Borghetto E and Carammia M (2010) L’analisi comparata delle agende politiche: il Comparative Agendas Project. Rivista Italiana di Scienza Politica 2(Agosto 2010): 301–315.</p></li>
 <li><p>Borghetto E and Franchino F (2010) The Role of Subnational Authorities in the Implementation of EU Directives. Journal Of European Public Policy 17(6): 759–780.</p></li>
 <li><p>Borghetto E, Giuliani M and Zucchini F (2009) Quanta Bruxelles c’è a Roma? L’europeizzazione della produzione normativa italiana. Rivista italiana di Politiche Pubbliche 2009(1): 135–162.</p></li>
@@ -1705,10 +1687,12 @@ University College London, London, UK</p></li>
 <div id="chapters-in-edited-books" class="section level3">
 <h3>CHAPTERS IN EDITED BOOKS</h3>
 <ul>
-<li><p>Belchior AM and Borghetto E (2019) The Portuguese Policy Agendas Project. In: Baumgartner FR, Breunig C, and Grossman E (eds) Comparative Policy Agendas: Theory, Tools, Data. Oxford, New York: Oxford University Press.</p></li>
-<li><p>Borghetto E and Chaques-Bonafont L (2019) Parliamentary Questions. In: Baumgartner FR, Breunig C, and Grossman E (eds) Comparative Policy Agendas: Theory, Tools, Data. Oxford, New York: Oxford University Press.</p></li>
-<li><p>Borghetto E, Carammia M and Russo F (2019) The Italian Agendas Project. In: Baumgartner FR, Breunig C, and Grossman E (eds) Comparative Policy Agendas: Theory, Tools, Data. Oxford, New York: Oxford University Press.</p></li>
-<li><p>Koprić I, Hlynsdóttir EM, Džinić J, et al. (2018) Institutional environments and mayors’ role perceptions. In: Heinelt H, Magnier A, Cabria M, et al. (eds) Political Leaders and Changing Local Democracy: The European Mayor. 1st ed. 2018 edition. Palgrave Macmillan, pp. 149–173</p></li>
+<li><p>Borghetto E and Lisi M (forthcoming) Legislative Activities before and after the Great Recession: An Analysis of Unemployment and Social Welfare Issues. In: Lisi M, Freire A, and Tsatsanis E (eds) Political Representation and Citizenship in Portugal. Lanham, Maryland: Lexington Books, pp. 173–191.</p></li>
+<li><p>Carammia M, Borghetto E and Sousa Galito M (2019) A Agenda do Conselho Europeu face às Crises. In: Camisão I and Brandão AP (eds) O Estado Da União Europeia: Da(s) Crise(s) à Mudança? Petrony, pp. 23–42.</p></li>
+<li><p>Belchior AM and Borghetto E (2019) The Portuguese Policy Agendas Project. In: Baumgartner FR, Breunig C, and Grossman E (eds) Comparative Policy Agendas: Theory, Tools, Data. Oxford, New York: Oxford University Press. 145-151</p></li>
+<li><p>Borghetto E and Chaques-Bonafont L (2019) Parliamentary Questions. In: Baumgartner FR, Breunig C, and Grossman E (eds) Comparative Policy Agendas: Theory, Tools, Data. Oxford, New York: Oxford University Press. 282-299</p></li>
+<li><p>Borghetto E, Carammia M and Russo F (2019) The Italian Agendas Project. In: Baumgartner FR, Breunig C, and Grossman E (eds) Comparative Policy Agendas: Theory, Tools, Data. Oxford, New York: Oxford University Press. 120-128</p></li>
+<li><p>Koprić I, Hlynsdóttir EM, Džinić J, et al. (2018) Institutional environments and mayors’ role perceptions. In: Heinelt H, Magnier A, Cabria M, et al. (eds) Political Leaders and Changing Local Democracy: The European Mayor. 1st ed. 2018 edition. Palgrave Macmillan, pp. 149–173</p></li>
 <li><p>Borghetto E (2015) Questioning the Government in Time of Crisis. An Analysis of Question Time in Spain. In: Preunkert, J, Baptista L, and Vobruba G (eds) Aftermath. Political and Urban Consequences of the Euro Crisis. Lisbon: Edições Colibri, pp. 91–116.</p></li>
 <li><p>Borghetto E and Carammia M (2015) Party Priorities, Government Formation, and the Making of the Executive Agenda. In: Conti N and Marangoni F (eds) The Challenge of Coalition Government: The Italian Case. Abingdon: Routledge, pp. 36–57.</p></li>
 <li><p>Borghetto E and Visconti F (2015) Governing by revising. A study on post-enactment policy change in Italy. In: Conti N and Marangoni F (eds) The Challenge of Coalition Government: The Italian Case. Abingdon: Routledge, pp. 106–127.</p></li>
@@ -1725,7 +1709,7 @@ University College London, London, UK</p></li>
 <div id="other-research-outputs" class="section level3">
 <h3>OTHER RESEARCH OUTPUTS</h3>
 <ul>
-<li><p>Borghetto E (2018) “Anti-populism”, in F.Jos? Eduardo (Ed) Dicion?rio dos Antis. A Cultura Portuguesa em Negativo, Imprensa Nacional-Casa da Moeda</p></li>
+<li><p>Borghetto E (2018) “Anti-populism”, in F.José Eduardo (Ed) Dicionário dos Antis. A Cultura Portuguesa em Negativo, Imprensa Nacional-Casa da Moeda</p></li>
 <li><p>Borghetto E (2016) Review ‘Crise Económica, Políticas de Austeridade e Representação Política, Lisboa, Assembleia da República – Divisão de edições, 2015’. Analise Social 219: 462–466</p></li>
 <li><p>Borghetto E, De Giorgi E and Lisi M (2014) Government failure, opposition success? Parties electoral performance in Portugal and Italy at the time of the crisis.Jean Monnet Occasional Paper, No.05/2014, Institute for European Studies (Malta).</p></li>
 <li><p>Borghetto E (2007) The respect of transposition deadlines in Italy: do political priorities matter? URGE Working paper 7/2007</p></li>
@@ -1735,27 +1719,30 @@ University College London, London, UK</p></li>
 <div id="work-in-progress" class="section level2">
 <h2>WORK IN PROGRESS</h2>
 <ul>
-<li><p>with Derek Epp. Economic inequality and legislative agendas in Europe [under review]</p></li>
-<li><p>with André Freire and José Santana Lopes. Constituency Characteristics, Expertise, Civil Society Links and Parliamentary Questions: Evidence from Portugal. [under review]</p></li>
-<li><p>with Federico Russo, Elisabetta De Giorgi, Marco Lisi. Persistent politicisation or temporary perturbation? The policy content of question time during and after the peak of the crisis in Italy, Portugal and Spain [under review]</p></li>
-<li><p>with Marco Lisi. Parliamentary questions and individual representation in a party-dominated environment: evidence from Portugal. Working paper</p></li>
-<li><p>with Ana Belchior. The transmission of policy agendas. The effect of party competition on the gap between electoral priorities and policy outputs. Working paper</p></li>
-<li><p>The issue strategies of niche parties between elections: an analysis of question time in six countries. Working paper</p></li>
-<li><p>with Emmanouil Tsatsanis, José Ramón Montero, André Freire. What kind of democrats? Ideological and generational gaps in forms of support for democracy in Southern Europe in the aftermath of the economic crisis. Working paper</p></li>
-<li><p>with Julie Sevenans, Emiliano Grossman. Seeking information or pressing for action: analysing the function of parliamentary questions in a comparative perspective. Working paper</p></li>
+<li><p>with Emmanouil Tsatsanis, José Ramón Montero, André Freire. What kind of democrats? Ideological and generational gaps in forms of support for democracy in Southern Europe in the aftermath of the economic crisis. [under review]</p></li>
+<li><p>with Julie Sevenans, Emiliano Grossman. Seeking information or pressing for action: analysing the function of parliamentary questions in a comparative perspective. [under review]</p></li>
+<li><p>with Federico Russo, Marco Lisi. Persistent politicisation or temporary perturbation? The policy content of question time during and after the peak of the crisis in Italy, Portugal and Spain</p></li>
+<li><p>The issue strategies of niche parties between elections: an analysis of question time in six countries. Working paper [under review]</p></li>
+<li><p>with Kartalis Yani, The Parliamentary Scrutiny of EU Affairs after the Eurocrisis: Evidence from Southern Europe. Working paper</p></li>
+<li><p>with Amnon Cavari, Maoz Rosenthal, Ilana Shpizeman, Gilad Greenwald, Private Member’s bills in the Knesset. Working paper</p></li>
 </ul>
 </div>
 <div id="conference-papers-a-selection" class="section level2">
 <h2>CONFERENCE PAPERS (A SELECTION)</h2>
 <ul>
-<li><p>“The issue strategies of niche parties between elections: an analysis of question time in six countries.”&quot; ECPR General Conference, Hamburg, 2018.</p></li>
-<li><p>“What kind of democrats? Ideological and generational gaps in forms of support for democracy in Southern Europe in the aftermath of the economic crisis”. ECPR General Conference, Hamburg, 2018.</p></li>
-<li><p>Enrico Borghetto, Julie Sevenans, Emiliano Grossman. Seeking information or pressing for action: analysing the function of parliamentary questions in a comparative perspective.&quot; Comparative Agendas Project, Amsterdam, 2018.</p></li>
+<li><p>“The impact of the crisis on issue competition in Italy, Portugal and Spain: evidence from an analysis of question time”, September 2019, Annual Conference of the Italian Political Science Association, Lecce</p></li>
+<li><p>“The Parliamentary Scrutiny of EU Affairs after the Eurocrisis: Evidence from Southern Europe”, September 2019, ECPR General Conference 2019, Wroclaw</p></li>
+<li><p>“The ‘Invisible’ Local Representation: District-Based Representation in a One-District Electoral System”, June 2019, Comparative Agendas Project, Budapest</p></li>
+<li><p>“True to your past or looking ahead: the dynamics of government agenda-setting”, June 2019, Comparative Agendas Project, Budapest</p></li>
+<li><p>“Legislative Agendas in an Age of Inequality”, May 2019, Lauder School Faculty Seminar, IDC Herzliya, Israel</p></li>
+<li><p>“The issue strategies of niche parties between elections: an analysis of question time in six countries.”,September 2018, ECPR General Conference, Hamburg</p></li>
+<li><p>“What kind of democrats? Ideological and generational gaps in forms of support for democracy in Southern Europe in the aftermath of the economic crisis”, September 2018, ECPR General Conference, Hamburg</p></li>
+<li><p>“Seeking information or pressing for action: analysing the function of parliamentary questions in a comparative perspective.”, July 2018, Comparative Agendas Project, Amsterdam</p></li>
 <li><p>“Economic inequality and legislative agendas in Europe” 18-20 April 2018, Conference of the Portuguese Political Science Association, Braga</p></li>
-<li><p>“Constituency characteristics, civil society links and topic selection by individual legislators: Evidence from Portugal” 10-14 April 2018, ECPR Joint Session, Nicosia</p></li>
-<li><p>“The determinants of the executive weekly agenda in Portugal: party mandates vs media attention” 6th December, 2017, University of Texas, Austin</p></li>
+<li><p>“Constituency characteristics, civil society links and topic selection by individual legislators: Evidence from Portugal”, April 2018, ECPR Joint Session, Nicosia</p></li>
+<li><p>“The determinants of the executive weekly agenda in Portugal: party mandates vs media attention”, 6th December, 2017, University of Texas, Austin</p></li>
 <li><p>“The Five-Star Movement in Parliament: a Truly New Kind of Parliamentary Opposition?”, 14-16 September 2017, Annual Conference of the Italian Political Science Association, Urbino</p></li>
-<li><p>“Constituency Characteristics, Expertise, Civil Society Links and Parliamentary Questions: Evidence from Portugal.” 6-9 September 2017, ECPR General Conference, Oslo</p></li>
+<li><p>“Constituency Characteristics, Expertise, Civil Society Links and Parliamentary Questions: Evidence from Portugal.”, 6-9 September 2017, ECPR General Conference, Oslo</p></li>
 <li><p>“Populism, blame shifting and the crisis: communication strategies in Portuguese political parties”, 6-9 September 2017, ECPR General Conference, Oslo</p></li>
 <li><p>“The determinants of the executive weekly agenda in Portugal: party mandates vs media attention” June 15-17, 2017, Annual Conference of the Comparative Agendas network, Edinburgh</p></li>
 <li><p>“Delegated decree authority in a parliamentary system. The exercise of legislative delegation in Italy” (1987-2013), 15-17 September 2016, SISP Annual Conference, University of Milan</p></li>
@@ -1787,7 +1774,7 @@ University College London, London, UK</p></li>
 <li><p>“Exploring why Italian executives do not exercise the legislative powers they are delegated”, 9-12 September 2009, 2009 ECPR General Conference, Potsdam</p></li>
 <li><p>“Leading governments and unwilling legislators. The European Union and the Italian Law making (1987-2006)”, Hague, 17 June 2009, “Delors’ Myth Workshop 2: The scope and impact of Europeanization of law production”</p></li>
 <li><p>“The regional dimension of EU policy implementation”, 25-27 September 2008, “Fourth Pan-European Conference on EU Politics (ECPR)”, Riga</p></li>
-<li><p>“The pace of the legislative process. A diachronic analysis of the Italian legislature (1996-2006)”, 4-6 September 2008, 2008 SISP (Italian Political Science Association) annual conference“, Pavia</p></li>
+<li><p>“The pace of the legislative process. A diachronic analysis of the Italian legislature (1996-2006)”, 4-6 September 2008, 2008 SISP (Italian Political Science Association) annual conference&quot;, Pavia</p></li>
 <li><p>“The timely transposition of EU directives in Italy: do political priorities matter?”, 11-16 April 2008, ECPR Joint sessions of workshops, Workshop “The Long Arm of EU Law”, Rennes</p></li>
 </ul>
 </div>
@@ -1858,6 +1845,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

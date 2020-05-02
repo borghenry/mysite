@@ -19,7 +19,7 @@ interests:
 - Data analysis 
 - EU studies
 organizations:
-- name: Universtiy of Florence
+- name: University of Florence
   url: "https://www.unifi.it/"
 role: Assistant Professor  
 social:
@@ -35,6 +35,12 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/borghenry
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0001-8676-3583
+- icon : researchgate
+  icon_pack : ai
+  link : https://www.researchgate.net/profile/Enrico_Borghetto
 superuser: true
 title: Enrico Borghetto  
 user_groups:

@@ -30,14 +30,12 @@ df <- Sys.Date()
 Last updated: `r Sys.Date()`
 
 ## WORK ADDRESS
-Dipartimento di Scienze Politiche e Sociali   
-Università degli Studi di Firenze    
-via delle Pandette, 32 (Building D1) 3rd floor, Florence, FI 50127  
+Instituto Português de Relações Internacionais (IPRI)    
+Faculty of Human and Social Science   
+NOVA University of Lisbon    
+Avenida de Berna, n. 26-C, 1069-061 Lisboa    
 
 ## ACADEMIC APPOINTMENTS
-* **04/2020-PRESENT**	Assistant Professor, Department of Political and Social Sciences (DSPS)   
-University of Florence, Italy      
-
 * **11/2019-PRESENT**	Researcher, contract funded by the Fundação para a Ciência e a Tecnologia at IPRI, Faculty of Social and Human Sciences (FCSH)  
 University NOVA of Lisbon, Portugal  
 
@@ -118,16 +116,14 @@ University of Milan, Milano, Italy
 * **Jan/Aug 2005** Visiting Fellow, School of Public Policy    
     University College London, London, UK   
   
-## TEACHING EXPERIENCE    
-### WHOLE COURSES:  
-* **06/04/2020-30/05/2020** “Comparative Politics”, Undergraduate course, University of Florence, 9 ECTS (32 hours)    
-   
-* **18/02/2020-30/05/2020** “Analise Politica Comparada”, Undergraduate course, FCSH, Nova University of Lisbon, 6 ECTS (64 hours)   
-   
+## TEACHING EXPERIENCE   
+### WHOLE COURSES:
+* **18/02/2020-NOW** “Analise Politica Comparada”, Undergraduate course, FCSH, Nova University of Lisbon, 6 ECTS (64 hours)   
+
 * **10/02/2020-13/02/2020** “Research design”, Lisbon Winter School in Research Skills and Methods, FCSH, NOVA University of Lisbon, 2 ECTS (12 hours)   
-   
+
 * **03/10/2019-17/12/2019** Course for PhD students “The Maestri of Political Science”, FCSH, Nova University of Lisbon (20 hours)   
-  
+
 * **21/02/2019-30/05/2019** “Parliamentary Studies”, Master Course, FCSH, Nova University of Lisbon, 10 ECTS (44 hours)  
   
 * **21/02/2019-30/05/2019** Tutorial for undergraduate students “Portuguese Parliament: Agenda-setting and Law-making”, FCSH, Nova University of Lisbon, 6 ECTS (20 hours)    

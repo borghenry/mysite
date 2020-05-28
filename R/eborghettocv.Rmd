@@ -18,7 +18,7 @@ geometry: margin=1in
 jobtitle: FCT Investigator
 linkcolor: blue
 fontfamilyoptions: sc, osf
-email: enrico.borghetto@fcsh.unl.pt
+email: enrico.borghetto@unifi.it
 updated: no
 urlcolor: blue
 web: enricoborghetto.netlify.com

@@ -86,7 +86,7 @@ phone = ""
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "via delle Pandette, 32 (Building D1) 3rd floor", city = "Florence", region = "FI", postcode = "50127", country = "Italy", country_code = "IT"}
+address = {street = "via delle Pandette, 32 (Building D1) 2nd floor, room 245", city = "Florence", region = "FI", postcode = "50127", country = "Italy", country_code = "IT"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.

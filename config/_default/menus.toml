@@ -43,7 +43,7 @@
 
 [[main]]
   name = "Courses"
-  url = "courses/"
+  url = "#courses"
   weight = 70
 
 [[main]]

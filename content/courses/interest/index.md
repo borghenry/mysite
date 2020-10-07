@@ -1,13 +1,13 @@
 ---
 title: Interest Group Politics
 author: admin
-date: '2020-05-02'
+date: ''
 slug: interest_group_politics
 categories: []
 tags: 
-summary: ''
+summary: 'Master course from 14/09/2020 to 11/12/2020'
 authors: []
-external_link: 'https://www.unifi.it/p-ins2-2019-542727-0.html'
+external_link: 'https://www.unifi.it/index.php?module=ofform2&mode=1&cmd=3&AA=2020&afId=564322'
 image:
   caption: ''
   focal_point: ''

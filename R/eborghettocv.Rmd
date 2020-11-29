@@ -12,7 +12,7 @@ output:
   pdf_document:
     toc: true
     latex_engine: pdflatex
-    template: C:\Users\Enrico Borghetto\Dropbox\blog\R\svm-latex-cv.tex
+    template: C:\Users\Enrico Borghetto\Dropbox\mysiteprof\R\svm-latex-cv.tex
 fontsize: 11pt
 geometry: margin=1in
 jobtitle: FCT Investigator
@@ -119,7 +119,9 @@ University of Milan, Milano, Italy
     University College London, London, UK   
   
 ## TEACHING EXPERIENCE    
-### WHOLE COURSES:  
+### WHOLE COURSES:   
+* **14/09/2020-07/10/2020** “Interest Group Politics”, Postgraduate course, University of Florence, 3 ECTS (21 hours)   
+
 * **06/04/2020-30/05/2020** “Comparative Politics”, Undergraduate course, University of Florence, 9 ECTS (32 hours)    
    
 * **18/02/2020-30/05/2020** “Analise Politica Comparada”, Undergraduate course, FCSH, Nova University of Lisbon, 6 ECTS (64 hours)   
@@ -159,7 +161,9 @@ University of Milan, Milano, Italy
 * **13/02/2013-16/02/2013** “Introduction to Event History Analysis” Lisbon Winter School in Research Skills and Methods, FCSH, NOVA University of Lisbon, 2 ECTS (12 hours)    
    
 
-### ONE-OFF CLASSES:   
+### ONE-OFF CLASSES:  
+* **23/11/2020** “Le funzioni dei parlamenti”, class for the undergraduate course in Political Science, University of Florence    
+
 * **30/10/2019** “Populism”, class for the undergraduate course in Sociology, FCSH, NOVA University of Lisbon   
 
 * **30/04/2015** “The European Crisis”, class for the cycle of seminars for Master students in “European politics”, FCSH, NOVA University of Lisbon   
@@ -199,13 +203,15 @@ University of Milan, Milano, Italy
 ## PUBLICATIONS  
 
 ### ARTICLES IN ACADEMIC JOURNALS
+* Borghetto E, Sevenans J and Grossman E (2020) Parliament’s (lack of) agenda-setting power over the executive decision agenda: evidence from Belgium, France and Portugal. Brazilian Journal of Public Administration 54(6). 6: 1588–1612.  
+
 * Epp DA and Borghetto E (forthcoming) Legislative Agendas during Periods of Inequality: Evidence from Europe and the United States. Journal of European Public Policy.   
 
 * Borghetto E, Santana‐Pereira J and Freire A (2020) Parliamentary Questions as an Instrument for Geographic Representation: The Hard Case of Portugal. Swiss Political Science Review 26(1): 10-30. DOI: 10.1111/spsr.12387.    
 
 *	Borghetto E and Belchior AM (2020) Party Manifestos, Opposition and Media as Determinants of the Cabinet Agenda. Political Studies 68(1): 37–53. DOI: 10.1177/0032321718820738.   
 
-* Borghetto E (2018) Challenger parties in Parliament: the case of the Italian Five Star Movement. Italian Political Science 13(3): 19–32.  
+* Borghetto E (2019) Challenger parties in Parliament: the case of the Italian Five Star Movement. Italian Political Science 13(3): 19–32.  
 
 * Lisi M and Borghetto E (2018) Populism, Blame Shifting and the Crisis: Discourse Strategies in Portuguese Political Parties. South European Society and Politics 23(4): 405–427. DOI: 10.1080/13608746.2018.1558606    
 
@@ -240,7 +246,7 @@ University of Milan, Milano, Italy
 * Borghetto E, Franchino F and Giannetti D (2006) Complying with the transposition deadlines of EU directives: Evidence from Italy. Rivista italiana di Politiche Pubbliche 1(2006): 7–38. 
 
 ### CHAPTERS IN EDITED BOOKS
-* Borghetto E and Lisi M (forthcoming) Legislative Activities before and after the Great Recession: An Analysis of Unemployment and Social Welfare Issues. In: Lisi M, Freire A, and Tsatsanis E (eds) Political Representation and Citizenship in Portugal. Lanham, Maryland: Lexington Books, pp. 173–191.   
+* Borghetto E and Lisi M (2020) Legislative Activities before and after the Great Recession: An Analysis of Unemployment and Social Welfare Issues. In: Lisi M, Freire A, and Tsatsanis E (eds) Political Representation and Citizenship in Portugal. Lanham, Maryland: Lexington Books, pp. 173–191.   
 
 * Carammia M, Borghetto E and Sousa Galito M (2019) A Agenda do Conselho Europeu face às Crises. In: Camisão I and Brandão AP (eds) O Estado Da União Europeia: Da(s) Crise(s) à Mudança? Petrony, pp. 23–42.  
 

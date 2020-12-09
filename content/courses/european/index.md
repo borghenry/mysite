@@ -5,7 +5,7 @@ date: ''
 slug: eu_politics
 categories: []
 tags: 
-summary: 'Master course from 22/02/2021 to 28/05/2021'
+summary: 'Postgraduate course from 22/02/2021 to 28/05/2021'
 authors: []
 external_link: 'https://www.unifi.it/index.php?module=ofform2&mode=1&cmd=3&AA=2020&afId=551495'
 image:

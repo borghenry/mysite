@@ -32,13 +32,13 @@ Last updated: `r Sys.Date()`
 ## WORK ADDRESS
 Dipartimento di Scienze Politiche e Sociali   
 Università degli Studi di Firenze    
-via delle Pandette, 32 (Building D1) 3rd floor, Florence, FI 50127  
+via delle Pandette, 21 (Building D5) 3rd floor, Florence, FI 50127  
 
 ## ACADEMIC APPOINTMENTS
 * **04/2020-PRESENT**	Assistant Professor, Department of Political and Social Sciences (DSPS)   
 University of Florence, Italy      
 
-* **11/2019-PRESENT**	Researcher, contract funded by the Fundação para a Ciência e a Tecnologia at IPRI, Faculty of Social and Human Sciences (FCSH)  
+* **11/2019-04/2020**	Researcher, contract funded by the Fundação para a Ciência e a Tecnologia at IPRI, Faculty of Social and Human Sciences (FCSH)  
 University NOVA of Lisbon, Portugal  
 
 * **03/2015-10/2019**	FCT investigator, contract funded by the Fundação para a Ciência e a Tecnologia (IF/00382/2014) at CICS.NOVA, Faculty of Social and Human Sciences (FCSH)  
@@ -414,12 +414,17 @@ Tools for text workshop, University of Washington, Seattle, US
 
 ## OTHER PROFESSIONAL ACTIVITIES
 
+### Service
+* Peer Review for Academic Journals: https://publons.com/researcher/1429699/enrico-borghetto/   
+* Member of the editorial board for the European Journal of Political Research  
+* Academic tutor in charge of internships for the RISE Master's program
+* Official Representative of the European Consortium for Political Research for the
+Department of Political and Social Sciences at the University of Florence   
+* Academic tutor for incoming students for the School of Political Sciences at the University of Florence  
+   
 ### Translation	
 * Il Mulino Publishing House, Bologna  
     Translation from English to Italian of the book "The government and politics of the European Union" by N.Nugent, London: MacMillan (2006, 6° ed.)
-
-### Peer Review	  
-https://publons.com/researcher/1429699/enrico-borghetto/ 
 
 ## LANGUAGE SKILLS
 * Proficient user in both written and spoken English (ESOL Certificate in Advanced English) and Portuguese.
@@ -427,7 +432,6 @@ https://publons.com/researcher/1429699/enrico-borghetto/
 
 ## OTHER SKILLS
 * R, Rmarkdown 
-* Ms Office
 * SQL
 * SPARQL
 * Python

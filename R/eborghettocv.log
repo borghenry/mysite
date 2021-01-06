@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.26)  29 NOV 2020 16:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.26)  6 JAN 2021 10:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -570,8 +570,28 @@ x-elles c'è a Roma? L'europeizzazione
  []
 
 [7] [8] [9] [10] [11]
+Overfull \hbox (22.35538pt too wide) in paragraph at lines 945--948
+[]\T1/pplj/m/n/10.95 Peer Re-view for Aca-demic Jour-nals: [][]$https : / / pub
+lons . com / researcher / 1429699 / enrico-[]borghetto/$[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 945--948
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 948--951
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 953--957
+
+ []
+
 LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
-948.
+970.
 
 (c:/Users/Enrico Borghetto/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/
 ts1pplj.fd
@@ -579,18 +599,19 @@ File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 ) [12] 
 AED: lastpage setting LastPage
 [13]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 985.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 985.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1000.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1000.
 (./eborghettocv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 985.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 985.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1000.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1000.
+
 Package rerunfilecheck Info: File `eborghettocv.out' has not changed.
-(rerunfilecheck)             Checksum: A5BEB9D9FA08D1BD97CC4531E4CF5E3E;3524.
+(rerunfilecheck)             Checksum: F909E080681F2B9F74927899782320A0;3501.
  ) 
 Here is how much of TeX's memory you used:
  10846 strings out of 482419
- 157339 string characters out of 5945450
- 407853 words of memory out of 5000000
+ 157331 string characters out of 5945450
+ 407849 words of memory out of 5000000
  26395 multiletter control sequences out of 15000+600000
  560967 words of font info for 71 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -604,7 +625,7 @@ Users/Enrico Borghetto/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palat
 ino/uplb8a.pfb><c:/Users/Enrico Borghetto/AppData/Roaming/TinyTeX/texmf-dist/fo
 nts/type1/urw/palatino/uplr8a.pfb><c:/Users/Enrico Borghetto/AppData/Roaming/Ti
 nyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on eborghettocv.pdf (13 pages, 126667 bytes).
+Output written on eborghettocv.pdf (13 pages, 126774 bytes).
 PDF statistics:
  265 PDF objects out of 1000 (max. 8388607)
  225 compressed objects within 3 object streams

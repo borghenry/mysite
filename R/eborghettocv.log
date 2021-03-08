@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.14)  14 FEB 2021 18:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.14)  8 MAR 2021 12:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -456,53 +456,53 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 
 {/Users/eborghetto/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 }]
-Underfull \hbox (badness 1789) in paragraph at lines 193--198
+Underfull \hbox (badness 1789) in paragraph at lines 197--202
 []\T1/pplj/b/n/10.95 2015-PRESENT \T1/pplj/m/n/10.95 One of the Prin-ci-pal in-
 ves-ti-ga-tors for the Por-tuguese Pol-icy Agen-
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 193--198
+Underfull \hbox (badness 1024) in paragraph at lines 197--202
 \T1/pplj/m/n/10.95 das Project. This is a joint re-search project in-volv-ing I
 SCTE and the FCSH [][]$https :
  []
 
 [2] [3] [4]
-Underfull \hbox (badness 1635) in paragraph at lines 451--455
+Underfull \hbox (badness 1635) in paragraph at lines 455--459
 []\T1/pplj/m/n/10.95 2015-20 ``Por-tuguese Par-lia-ment: Agenda-setting and Law
 -making'' FCT In-ves-ti-ga-tor
  []
 
 [5] [6]
-Overfull \hbox (4.47267pt too wide) in paragraph at lines 574--578
+Overfull \hbox (4.47267pt too wide) in paragraph at lines 578--582
 []\T1/pplj/m/n/10.95 Borghetto E, Giu-liani M and Zuc-chini F (2009) Quanta Bru
 x-elles c'è a Roma? L'europeizzazione
  []
 
 [7] [8] [9] [10] [11]
-Overfull \hbox (22.35538pt too wide) in paragraph at lines 949--952
+Overfull \hbox (22.35538pt too wide) in paragraph at lines 929--932
 []\T1/pplj/m/n/10.95 Peer Re-view for Aca-demic Jour-nals: [][]$https : / / pub
 lons . com / researcher / 1429699 / enrico-[]borghetto/$[][] 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
-974.
+954.
 (/Users/eborghetto/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ts1pplj.fd
 File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
-) [12] 
+) 
 AED: lastpage setting LastPage
-[13] (./eborghettocv.aux)
+[12] (./eborghettocv.aux)
 Package rerunfilecheck Info: File `eborghettocv.out' has not changed.
-(rerunfilecheck)             Checksum: F909E080681F2B9F74927899782320A0;3501.
+(rerunfilecheck)             Checksum: 6FEA41A1EA3CFAA8366CE86270C57C8D;3366.
  ) 
 Here is how much of TeX's memory you used:
- 10404 strings out of 481250
- 151204 string characters out of 5914717
- 454432 words of memory out of 5000000
- 27113 multiletter control sequences out of 15000+600000
+ 10399 strings out of 481250
+ 151133 string characters out of 5914717
+ 453389 words of memory out of 5000000
+ 27111 multiletter control sequences out of 15000+600000
  432059 words of font info for 74 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 71i,12n,74p,1244b,432s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,11n,74p,1244b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/Users/eborghetto/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc} </
 Users/eborghetto/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1095
 .600pk></Users/eborghetto/Library/TinyTeX/texmf-dist/fonts/type1/public/fpl/fpl
@@ -511,10 +511,10 @@ plrc8a.pfb></Users/eborghetto/Library/TinyTeX/texmf-dist/fonts/type1/urw/palati
 no/uplb8a.pfb></Users/eborghetto/Library/TinyTeX/texmf-dist/fonts/type1/urw/pal
 atino/uplr8a.pfb></Users/eborghetto/Library/TinyTeX/texmf-dist/fonts/type1/urw/
 palatino/uplri8a.pfb>
-Output written on eborghettocv.pdf (13 pages, 127403 bytes).
+Output written on eborghettocv.pdf (12 pages, 125938 bytes).
 PDF statistics:
- 265 PDF objects out of 1000 (max. 8388607)
- 225 compressed objects within 3 object streams
- 62 named destinations out of 1000 (max. 500000)
- 193 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 253 PDF objects out of 1000 (max. 8388607)
+ 214 compressed objects within 3 object streams
+ 59 named destinations out of 1000 (max. 500000)
+ 185 words of extra memory for PDF output out of 10000 (max. 10000000)
 

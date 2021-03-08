@@ -37,7 +37,7 @@ Last updated: `r Sys.Date()`
 
 Dipartimento di Scienze Politiche e Sociali\
 Università degli Studi di Firenze\
-via delle Pandette, 21 (Building D5) 3rd floor, Florence, FI 50127
+via delle Pandette, 21 (Building D5) 2nd floor, Florence, FI 50127
 
 ## ACADEMIC APPOINTMENTS
 
@@ -45,7 +45,11 @@ via delle Pandette, 21 (Building D5) 3rd floor, Florence, FI 50127
     Social Sciences (DSPS)\
     University of Florence, Italy
 
--   **11/2019-04/2020** Researcher, contract funded by the Fundação para
+-   **04/2020-PRESENT** Associated Researcher at IPRI, Faculty of Social and Human
+    Sciences (FCSH)\
+    University NOVA of Lisbon, Portugal
+
+-   **11/2019-04/2020** Contracted Researcher, contract funded by the Fundação para
     a Ciência e a Tecnologia at IPRI, Faculty of Social and Human
     Sciences (FCSH)\
     University NOVA of Lisbon, Portugal
